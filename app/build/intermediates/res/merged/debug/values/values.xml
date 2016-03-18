@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="list_of_items">
+        <item>Cigarettes at $0.50 each\nFor a total of: $5</item>
+        <item>Beer at $2 each\nFor a total of: $8</item>
+        <item>Liquor (1/5th) at $25 each\nFor a total of: $25</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>

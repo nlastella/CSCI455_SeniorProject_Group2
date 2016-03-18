@@ -35,8 +35,6 @@ public class recordableItem {
         purchase_count += amount;
     }
 
-
-
     public String toString(){
         return getName() + " at $" + getPrice() + " each\nFor a total of: " + getAmountSpent();
     }

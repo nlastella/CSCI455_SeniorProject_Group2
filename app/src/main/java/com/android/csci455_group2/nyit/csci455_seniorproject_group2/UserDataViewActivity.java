@@ -25,10 +25,15 @@ public class UserDataViewActivity extends AppCompatActivity {
         itemList.add(new recordableItem("Alcohol", 12));
         itemList.add(new recordableItem("Other", 5));
 
+        itemList.get(0).purchaseItem(5);
+        itemList.get(1).purchaseItem(2);
+        itemList.get(2).purchaseItem(3);
+
+
         //CONVERTING THE ARRAYLIST TO AN ARRAY
-        String[] itemListArr = new String[itemList.size()];
+        String[] itemListArrStrings = new String[itemList.size()];
         for(int i = 0; i < itemList.size(); i++){
-            itemListArr[i] = itemList.get(i).toString();
+            itemListArrStrings[i] = itemList.get(i).toString();
         }
 
 
