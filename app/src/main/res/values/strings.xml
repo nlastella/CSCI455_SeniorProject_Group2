@@ -26,5 +26,7 @@
         <item>Beer at $2 each\nFor a total of: $8</item>
         <item>Liquor (1/5th) at $25 each\nFor a total of: $25</item>
     </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_enter">enter</string>
 
 </resources>
