@@ -33,6 +33,14 @@
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.android.csci455_group2.nyit.csci455_seniorproject_group2.UserDataViewActivity" />
+        <activity
+            android:name="com.android.csci455_group2.nyit.csci455_seniorproject_group2.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.android.csci455_group2.nyit.csci455_seniorproject_group2.enter"
+            android:label="@string/title_activity_enter"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

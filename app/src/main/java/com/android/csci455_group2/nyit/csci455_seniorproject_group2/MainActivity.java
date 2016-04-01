@@ -1,29 +1,46 @@
-package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
+package com.example.yanchao.login_register;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.yanchao.Login;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    Button bLogout;
+    EditText etName, etUsername, etAge;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+        etName = (EditText) findViewById(R.id.etName);
+        etAge = (EditText) findViewById(R.id.etAge);
+        etUsername = (EditText) findViewById(R.id.etUsername);
+
+
+        bLogout = (Button) findViewById(R.id.bLogout);
+
+
+        bLogout.setOnClickListener(this);
+    }
+
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.bLogout:
+
+                startActivity(new Intent(this, Login.class));
+                break;
+
+        }
     }
 
 }
