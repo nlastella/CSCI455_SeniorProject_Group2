@@ -1,9 +1,11 @@
 package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
+import java.io.Serializable;
+
 /**
  * Created by nicholaslastella on 3/2/16.
  */
-public class recordableItem {
+public class recordableItem implements Serializable {
 
     private String item_name;
     private double item_price;
