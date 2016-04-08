@@ -8,9 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.yanchao.login_register.R;
+import com.android.csci455_group2.nyit.csci455_seniorproject_group2.R;
+//import android.R;
 
-public class Login extends AppCompatActivity implements View.OnClickListener{
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button bLogin;
     EditText etUsername, etPassword;
@@ -35,15 +36,10 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bLogin:
-
-
                 break;
 
             case R.id.tvRegisterLink:
-
-
-                startActivity(new Intent(this, Register.class));
-
+                startActivity(new Intent(this, com.example.yanchao.Register.class));
                 break;
         }
     }

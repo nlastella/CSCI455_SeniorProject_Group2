@@ -6,7 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.yanchao.login_register.R;
+//import android.R;
+import com.android.csci455_group2.nyit.csci455_seniorproject_group2.R;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 

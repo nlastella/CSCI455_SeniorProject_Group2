@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/moneySpentTotalDynamic"
+        android:id="@+id/moneySpentTotalValue"
         android:text="temp text - variable goes here"
         android:layout_alignTop="@+id/moneySpentTotalLabel"
         android:layout_marginTop="34dp"
