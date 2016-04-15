@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml",
+        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
+                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
+                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml",
+        "outputFile": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -97,7 +97,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
+                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -116,7 +116,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
+                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w480dp-v13/values-w480dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

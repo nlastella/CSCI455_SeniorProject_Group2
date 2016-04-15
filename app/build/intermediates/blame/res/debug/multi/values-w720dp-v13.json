@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w720dp-v13/values-w720dp-v13.xml",
+        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w720dp-v13/values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w720dp-v13/values-w720dp-v13.xml",
+                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w720dp-v13/values-w720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w720dp-v13/values-w720dp-v13.xml",
+        "outputFile": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w720dp-v13/values-w720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w720dp-v13/values-w720dp-v13.xml",
+                    "file": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-w720dp-v13/values-w720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

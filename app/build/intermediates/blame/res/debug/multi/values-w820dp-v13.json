@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/yanchao/CSCI455_SeniorProject_Group2/app/src/main/res/values-w820dp/dimens.xml",
+                    "file": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/values-w820dp/dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
