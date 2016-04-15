@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import static android.content.Context.*;
 
-public class MainActivity extends AppCompatActivity {
+public class enter extends AppCompatActivity {
 
     private static final String[] list = {"cigarette","alcohol","drug"};
     private ArrayAdapter<String> adapter;
@@ -78,10 +78,10 @@ public class MainActivity extends AppCompatActivity {
                 String dayStr = String.valueOf(datePicker.getDayOfMonth());
 
                 if (!isNumeric(moneyInput.getText().toString())) {
-                    Toast.makeText(MainActivity.this, "Money must be number!!!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(enter.this, "Money must be number!!!", Toast.LENGTH_LONG).show();
                 }
                 else if(moneyInput.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this, "Money can not be empty!!!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(enter.this, "Money can not be empty!!!", Toast.LENGTH_LONG).show();
                 }
 
                 else {

@@ -1,4 +1,4 @@
-package com.example.yanchao;
+package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
