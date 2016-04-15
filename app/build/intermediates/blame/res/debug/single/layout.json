@@ -360,12 +360,17 @@
         "source": "/home/yanchao/CSCI455_SeniorProject_Group2/app/src/main/res/layout/nav_header_navigation.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/recordable_item_layout.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/layout/recordable_item_layout.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+=======
+        "merged": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_mode_close_item_material.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",

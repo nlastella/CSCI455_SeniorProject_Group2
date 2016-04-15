@@ -12,6 +12,7 @@ import com.android.csci455_group2.nyit.csci455_seniorproject_group2.R;
 public class UserDataViewActivity extends AppCompatActivity {
 
     ListView mlistItemsPurchased;
+    TextView moneySpentView;
     ArrayList<recordableItem> itemList;
     double totalSpent;
 
@@ -20,21 +21,20 @@ public class UserDataViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_data_view);
 
-
-        //CREATING AND FILLING A TEMPORARY ARRAYLIST OF recordableItems AS A TEST
+        //CREATING AND FILLING A TEMPORARY ArrayList OF recordableItems AS A TEST
+        //TO BE LATER GRABBED FROM A DATABASE
         itemList = new ArrayList<>();
         itemList.add(new recordableItem("Cigarettes", 10));
         itemList.add(new recordableItem("Alcohol", 12));
         itemList.add(new recordableItem("Other", 5));
-
+        //ADDING A THEORETICAL PURCHASE COUNT TO EACH ITEM
         itemList.get(0).purchaseItem(5);
         itemList.get(1).purchaseItem(2);
         itemList.get(2).purchaseItem(3);
 
-
         //CONVERTING THE ArrayList<recordableItem> TO ArrayList<String> & ADDING TOTAL SPENT
         ArrayList<String> itemListArrStrings = new ArrayList<>();
-        for(int i = itemList.size()-1; i >= 0; i--){
+        for(int i = 0; i < itemList.size(); i++){
             itemListArrStrings.add(itemList.get(i).toString());
             totalSpent += itemList.get(i).getAmountSpent();
         }
@@ -44,14 +44,10 @@ public class UserDataViewActivity extends AppCompatActivity {
         mlistItemsPurchased = (ListView) findViewById(R.id.listItemsPurchased);
         mlistItemsPurchased.setAdapter(adapter);
 
-
-
-        //CONVERTING TOTAL SPENT TO A DISPLAYABLE STRING
+        //CONVERTING TOTAL SPENT FROM double TO A DISPLAYABLE String
         String moneySpentDisplay = Double.toString(totalSpent);
         //SENDING STRING DISPLAY TO ACTIVITY
-        TextView moneySpentView = new TextView(this);
         moneySpentView = (TextView)findViewById(R.id.moneySpentTotalValue);
         moneySpentView.setText(moneySpentDisplay);
-
     }
 }

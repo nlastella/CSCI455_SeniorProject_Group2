@@ -2301,13 +2301,21 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0057;
         public static final int action_mode_bar_stub=0x7f0d0056;
         public static final int action_mode_close_button=0x7f0d003c;
+<<<<<<< Updated upstream
         public static final int action_settings=0x7f0d0098;
+=======
+        public static final int action_settings=0x7f0d0095;
+>>>>>>> Stashed changes
         public static final int activity_chooser_view_content=0x7f0d003d;
         public static final int alertTitle=0x7f0d0049;
         public static final int always=0x7f0d0033;
         public static final int bLogin=0x7f0d006d;
         public static final int bLogout=0x7f0d0071;
+<<<<<<< Updated upstream
         public static final int bRegister=0x7f0d0091;
+=======
+        public static final int bRegister=0x7f0d008e;
+>>>>>>> Stashed changes
         public static final int beginning=0x7f0d0031;
         public static final int bottom=0x7f0d001d;
         public static final int buttonPanel=0x7f0d0044;
@@ -2369,12 +2377,21 @@ containing a value of this type.
         public static final int moneySpentTotalLabel=0x7f0d0075;
         public static final int moneySpentTotalValue=0x7f0d0076;
         public static final int multiply=0x7f0d0027;
+<<<<<<< Updated upstream
         public static final int nav_camera=0x7f0d0092;
         public static final int nav_gallery=0x7f0d0093;
         public static final int nav_manage=0x7f0d0095;
         public static final int nav_send=0x7f0d0097;
         public static final int nav_share=0x7f0d0096;
         public static final int nav_slideshow=0x7f0d0094;
+=======
+        public static final int nav_camera=0x7f0d008f;
+        public static final int nav_gallery=0x7f0d0090;
+        public static final int nav_manage=0x7f0d0092;
+        public static final int nav_send=0x7f0d0094;
+        public static final int nav_share=0x7f0d0093;
+        public static final int nav_slideshow=0x7f0d0091;
+>>>>>>> Stashed changes
         public static final int nav_view=0x7f0d0073;
         public static final int navigation_header_container=0x7f0d007a;
         public static final int never=0x7f0d0036;
@@ -2430,10 +2447,14 @@ containing a value of this type.
         public static final int toolbar=0x7f0d0069;
         public static final int top=0x7f0d0026;
         public static final int topPanel=0x7f0d0047;
+<<<<<<< Updated upstream
         public static final int tvName=0x7f0d008e;
         public static final int tvPrice=0x7f0d008f;
         public static final int tvRegisterLink=0x7f0d006e;
         public static final int tvSpent=0x7f0d0090;
+=======
+        public static final int tvRegisterLink=0x7f0d006e;
+>>>>>>> Stashed changes
         public static final int up=0x7f0d0009;
         public static final int useLogo=0x7f0d0014;
         public static final int view_offset_helper=0x7f0d000a;
@@ -2505,12 +2526,11 @@ containing a value of this type.
         public static final int notification_template_media=0x7f040034;
         public static final int notification_template_part_chronometer=0x7f040035;
         public static final int notification_template_part_time=0x7f040036;
-        public static final int recordable_item_layout=0x7f040037;
-        public static final int register=0x7f040038;
-        public static final int select_dialog_item_material=0x7f040039;
-        public static final int select_dialog_multichoice_material=0x7f04003a;
-        public static final int select_dialog_singlechoice_material=0x7f04003b;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003c;
+        public static final int register=0x7f040037;
+        public static final int select_dialog_item_material=0x7f040038;
+        public static final int select_dialog_multichoice_material=0x7f040039;
+        public static final int select_dialog_singlechoice_material=0x7f04003a;
+        public static final int support_simple_spinner_dropdown_item=0x7f04003b;
     }
     public static final class menu {
         public static final int activity_navigation_drawer=0x7f0e0000;
