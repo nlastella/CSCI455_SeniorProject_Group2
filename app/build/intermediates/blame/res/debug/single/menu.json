@@ -4,23 +4,7 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/menu/navigation.xml"
     },
     {
-        "merged": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/home/yanchao/CSCI455_SeniorProject_Group2/app/src/main/res/menu/navigation.xml"
-    },
-    {
-        "merged": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
-        "source": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/src/main/res/menu/activity_navigation_drawer.xml"
-    },
-    {
-        "merged": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/Users/jeffey/CSCI455_SeniorProject_Group2/app/src/main/res/menu/navigation.xml"
-    },
-    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/menu/activity_navigation_drawer.xml"
-    },
-    {
-        "merged": "/home/yanchao/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
-        "source": "/home/yanchao/CSCI455_SeniorProject_Group2/app/src/main/res/menu/activity_navigation_drawer.xml"
     }
 ]

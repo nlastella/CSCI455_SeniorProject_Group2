@@ -20,6 +20,8 @@
 
     <string name="action_settings">Settings</string>
 
+    <string name="demo">Money:</string>
+
 
     <string-array name="list_of_items">
         <item>Cigarettes at $0.50 each\nFor a total of: $5</item>
