@@ -22,7 +22,7 @@ public class enter extends AppCompatActivity {
 
     private static final String[] list = {"cigarette","alcohol","drug"};
     private ArrayAdapter<String> adapter;
-    private Spinner spinner;
+    private Spinner spin;
     private EditText moneyInput;
 
     private DatePicker datePicker;
@@ -47,7 +47,8 @@ public class enter extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        spinner = (Spinner)findViewById(R.id.spinner);
+
+        spin = (Spinner)findViewById(R.id.spinner);
         moneyInput = (EditText)findViewById(R.id.editText);
         submit = (Button)findViewById(R.id.Submit);
         datePicker=(DatePicker)this.findViewById(R.id.datePicker1);
@@ -56,16 +57,16 @@ public class enter extends AppCompatActivity {
 
 
         //db.execSQL("CREATE TABLE demo (item varchar, money int, date varchar)");
-
-
+        
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,list);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spin.setAdapter(adapter);
 
-        spinner.setAdapter(adapter);
-        spinner.setVisibility(View.VISIBLE);
-        spinner.setMinimumWidth(800);
+
+        spin.setVisibility(View.VISIBLE);
+        spin.setMinimumWidth(800);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            spinner.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+            spin.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         }
 
 
@@ -85,7 +86,7 @@ public class enter extends AppCompatActivity {
                 }
 
                 else {
-                    item = spinner.getSelectedItem().toString();
+                    item = spin.getSelectedItem().toString();
                     money = Integer.parseInt(moneyInput.getText().toString());
                     date = yearStr + "/" + monthStr + "/" + dayStr;
 
