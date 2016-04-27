@@ -16,11 +16,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 import static android.content.Context.*;
 
 public class enter extends AppCompatActivity {
 
-    private static final String[] list = {"cigarette","alcohol","drug"};
+    private static final String[] items = {"cigarette","alcohol","drug"};
     private ArrayAdapter<String> adapter;
     private Spinner spin;
     private EditText moneyInput;
@@ -46,10 +48,10 @@ public class enter extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_enter);
 
-        spin = (Spinner)findViewById(R.id.spinner);
-        moneyInput = (EditText)findViewById(R.id.editText);
+        spin = (Spinner)findViewById(R.id.itemSpinner);
+        moneyInput = (EditText)findViewById(R.id.moneyTextInput);
         submit = (Button)findViewById(R.id.Submit);
         datePicker=(DatePicker)this.findViewById(R.id.datePicker1);
 
@@ -57,8 +59,13 @@ public class enter extends AppCompatActivity {
 
 
         //db.execSQL("CREATE TABLE demo (item varchar, money int, date varchar)");
+
+        ArrayList<String> itemsArrayList = new ArrayList<>();
+        for(String s : items){
+            itemsArrayList.add(s);
+        }
         
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,list);
+        adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, itemsArrayList);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(adapter);
 

@@ -29,6 +29,8 @@ public class recordableItem implements Serializable {
         return item_price * purchase_count;
     }
 
+    public int getPurchaseCount() { return purchase_count; }
+
     public void purchaseItem(){
         purchase_count++;
     }
@@ -38,7 +40,7 @@ public class recordableItem implements Serializable {
     }
 
     public String toString(){
-        return getName() + " at $" + getPrice() + " each\nFor a total of: " + getAmountSpent();
+        return getName() + " at $" + getPrice() + " each,\nFor a total of: $" + getAmountSpent();
     }
 }
 
