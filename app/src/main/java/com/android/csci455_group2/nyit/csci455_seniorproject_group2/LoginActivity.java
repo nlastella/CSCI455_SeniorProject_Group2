@@ -8,8 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.android.csci455_group2.nyit.csci455_seniorproject_group2.R;
-
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -36,10 +34,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bLogin:
+                //check login data
+                startActivity(new Intent(this, enter.class));
                 break;
 
             case R.id.tvRegisterLink:
-                startActivity(new Intent(this, com.android.csci455_group2.nyit.csci455_seniorproject_group2.Register.class));
+                startActivity(new Intent(this, Register.class));
                 break;
         }
     }

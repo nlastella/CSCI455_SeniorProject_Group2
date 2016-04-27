@@ -1,5 +1,6 @@
 package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,11 +9,8 @@ import android.widget.EditText;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
-
     Button bRegister;
     EditText etName, etAge, etUsername, etPassword;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +31,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v){
         switch (v.getId()){
             case R.id.bRegister:
+                //create new login data
+                startActivity(new Intent(this, LoginActivity.class));
                 break;
 
         }
