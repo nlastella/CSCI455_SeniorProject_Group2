@@ -40,8 +40,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.2.0'
-    compile 'com.android.support:design:23.2.0'
     compile files('libs/httpcomponents-client-4.5.2/lib/commons-codec-1.9.jar')
     compile files('libs/httpcomponents-client-4.5.2/lib/commons-logging-1.2.jar')
     compile files('libs/httpcomponents-client-4.5.2/lib/fluent-hc-4.5.2.jar')
@@ -59,4 +57,6 @@ dependencies {
     compile files('libs/httpcomponents-client-4.5.2-bin.jar')
     compile files('libs/httpcomponents-client-4.3.1-bin (2).jar')
     compile files('libs/httpcomponents-core-4.4.4-bin.jar')
+    compile 'com.android.support:appcompat-v7:23.2.0'
+    compile 'com.android.support:design:23.2.0'
 }

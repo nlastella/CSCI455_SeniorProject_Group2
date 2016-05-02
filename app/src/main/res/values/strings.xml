@@ -30,5 +30,6 @@
     </string-array>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_enter">enter</string>
+    <string name="title_activity_comparison__page">Comparison_Page</string>
 
 </resources>
