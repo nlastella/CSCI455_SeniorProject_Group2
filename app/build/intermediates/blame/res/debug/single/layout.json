@@ -8,12 +8,12 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -32,12 +32,12 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",

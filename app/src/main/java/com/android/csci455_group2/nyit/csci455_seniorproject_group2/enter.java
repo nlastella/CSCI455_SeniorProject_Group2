@@ -58,7 +58,7 @@ public class enter extends AppCompatActivity {
         db = openOrCreateDatabase("test.db", MODE_PRIVATE, null);
 
 
-        //db.execSQL("CREATE TABLE demo (item varchar, money int, date varchar)");
+        db.execSQL("CREATE TABLE demo (item varchar, money int, date varchar)");
 
         ArrayList<String> itemsArrayList = new ArrayList<>();
         for(String s : items){
