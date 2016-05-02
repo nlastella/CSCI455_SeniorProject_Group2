@@ -16,7 +16,11 @@ public class UserDataViewActivity extends AppCompatActivity {
     ListView mlistItemsPurchased;
     TextView moneySpentView;
     ArrayList<recordableItem> itemList;
+<<<<<<< HEAD
     public double totalSpent;
+=======
+    public static double totalSpent;
+>>>>>>> master
     FeedReaderDbHelper mDbHelper;
 
     @Override
