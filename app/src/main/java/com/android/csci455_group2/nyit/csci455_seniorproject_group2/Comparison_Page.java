@@ -31,8 +31,14 @@ TextView moneySpent;
         Items= new ArrayList<>();
         Items.add(new comparableItem("football", 10 ));
         Items.add(new comparableItem("baseball mitt", 10 ));
-        Items.add(new comparableItem("football", 10 ));
-        
+        Items.add(new comparableItem("Video Game", 40 ));
+        Items.add(new comparableItem("New Nikes", 100 ));
+        Items.add(new comparableItem("New Phone", 300));
+        Items.add(new comparableItem("Watch", 80 ));
+        Items.add(new comparableItem("Designer Jeans", 60 ));
+        Items.add(new comparableItem("2 movie tickets", 20 ));
+        Items.add(new comparableItem("Dinner for 2 ", 50 ));
+        Items.add(new comparableItem("Dr Dre BlueTooth Headphones", 200 ));
 
 
 
