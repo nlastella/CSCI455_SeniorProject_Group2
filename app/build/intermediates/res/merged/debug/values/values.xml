@@ -311,6 +311,7 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_comparison__page">Comparison_Page</string>
     <string name="title_activity_enter">enter</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>

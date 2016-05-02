@@ -4,7 +4,15 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]
