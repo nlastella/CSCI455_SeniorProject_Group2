@@ -1,43 +1,92 @@
 package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+import android.os.Handler;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import java.util.Map;
 
-    Button bLogout;
-    EditText etName, etUsername, etAge;
-
-
+public class MainActivity extends AppCompatActivity {
+    private EditText et_userName; //username
+    private EditText et_passWord; //password
+    private Button bt_login;      //login button
+    private Button bt_register;  //jump to register
+    private ProgressDialog dialog;//progress dialog
+    private String info;
+    private TextView testTV;
+    private static Handler handler = new android.os.Handler() ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+        //get item
+        et_userName = (EditText)findViewById(R.id.username);
+        et_passWord = (EditText)findViewById(R.id.password);
+        bt_login = (Button)findViewById(R.id.login);
+        testTV = (TextView)findViewById(R.id.test);
+        bt_register = (Button)findViewById(R.id.register);
 
+        bt_register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Register.class));
+            }
+        });
 
-        etName = (EditText) findViewById(R.id.etName);
-        etAge = (EditText) findViewById(R.id.etAge);
-        etUsername = (EditText) findViewById(R.id.etUsername);
-
-
-        bLogout = (Button) findViewById(R.id.bLogout);
-
-
-        bLogout.setOnClickListener(this);
+        //set button listener
+        bt_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // search network(cannot search wifi)
+                if (!checkNetwork()) {
+                    Toast toast = Toast.makeText(MainActivity.this, "No Internet Connection", Toast.LENGTH_SHORT);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
+                }
+                // Information dialog
+                dialog = new ProgressDialog(MainActivity.this);
+                dialog.setTitle("Information");
+                dialog.setMessage("Log in, please wait...");
+                dialog.setCancelable(false);
+                dialog.show();
+                // create sub_thread, doing Get and Post transfer
+                new Thread(new MyThread()).start();
+            }
+        });
     }
-
-
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.bLogout:
-                startActivity(new Intent(this, com.android.csci455_group2.nyit.csci455_seniorproject_group2.LoginActivity.class));
-                break;
-
+    // sub_thread get data, main thread change data
+    public class MyThread implements Runnable {
+        @Override
+        public void run() {
+            info = WebService.executeHttpGet(et_userName.getText().toString(), et_passWord.getText().toString());
+            // info = WebServicePost.executeHttpPost(username.getText().toString(), password.getText().toString());
+            handler.post(new Runnable() {
+                @Override
+                public void run() {
+                    testTV.setText(info);
+                    dialog.dismiss();
+                }
+            });
         }
     }
-
+    // search Internet
+    private boolean checkNetwork() {
+        ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connManager.getActiveNetworkInfo() != null) {
+            return connManager.getActiveNetworkInfo().isAvailable();
+        }
+        return false;
+    }
 }

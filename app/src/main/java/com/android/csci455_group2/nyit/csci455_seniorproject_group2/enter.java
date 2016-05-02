@@ -22,7 +22,7 @@ import static android.content.Context.*;
 
 public class enter extends AppCompatActivity {
 
-    private static final String[] items = {"cigarette","alcohol","drug"};
+    private static final String[] items = {"Cigarettes","Alcohol","Other"};
     private ArrayAdapter<String> adapter;
     private Spinner spin;
     private EditText moneyInput;
@@ -110,8 +110,6 @@ public class enter extends AppCompatActivity {
                 while (cursor.moveToNext()) {
                     Log.d("Database:", cursor.getString(0) +" || "+ String.valueOf(cursor.getInt(1)) + "||" + cursor.getString(2));
                 }
-
-
             }
         });
 
