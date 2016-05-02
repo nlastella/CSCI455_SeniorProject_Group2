@@ -6,12 +6,16 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 import static com.android.csci455_group2.nyit.csci455_seniorproject_group2.UserDataViewActivity.*;
 
 public class Comparison_Page extends AppCompatActivity {
+    ArrayList<comparableItem> Items;
 TextView moneySpent;
     ListView CompareItems;
     @Override
@@ -24,6 +28,28 @@ TextView moneySpent;
         moneySpent = (TextView)findViewById(R.id.totalspentview);
         moneySpent.setText(moneySpentDisp);
 
+        Items= new ArrayList<>();
+        Items.add(new comparableItem("football", 10 ));
+        Items.add(new comparableItem("baseball mitt", 10 ));
+        Items.add(new comparableItem("football", 10 ));
+        
+
+
+
+
+        ArrayList<String> Items_String=new ArrayList<>();
+        for (int i = 0; i<Items.size();i ++){
+            Items.get(i).calcCount(UserDataViewActivity.totalSpent);
+            Items_String.add(Items.get(i).toSring());
+        }
+
+
+
+
+        ArrayAdapter<String>Adapt=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,Items_String);
+
+        CompareItems=(ListView) findViewById(R.id.Compare_Items);
+        CompareItems.setAdapter(Adapt);
 
             }
 
