@@ -65,15 +65,15 @@ public class ComparisonPage extends AppCompatActivity {
 
     public void createItemCompareList(){
         Items.clear();
-        Items.add(new comparableItem("Football", 15 ));
-        Items.add(new comparableItem("Baseball Mitt", 10 ));
-        Items.add(new comparableItem("Video Game", 40 ));
+        Items.add(new comparableItem("Footballs", 15 ));
+        Items.add(new comparableItem("Baseball Mitts", 10 ));
+        Items.add(new comparableItem("Video Games", 40 ));
         Items.add(new comparableItem("New Nikes", 100 ));
-        Items.add(new comparableItem("New Phone", 300));
-        Items.add(new comparableItem("Watch", 80 ));
-        Items.add(new comparableItem("Designer Jeans", 60 ));
+        Items.add(new comparableItem("New Phones", 300));
+        Items.add(new comparableItem("Watches", 80 ));
+        Items.add(new comparableItem("Pairs of Designer Jeans", 60 ));
         Items.add(new comparableItem("Movie tickets", 20 ));
-        Items.add(new comparableItem("Dinner for two", 50 ));
+        Items.add(new comparableItem("Dinners for two", 50 ));
         Items.add(new comparableItem("Dr Dre BlueTooth Headphones", 200 ));
     }
 

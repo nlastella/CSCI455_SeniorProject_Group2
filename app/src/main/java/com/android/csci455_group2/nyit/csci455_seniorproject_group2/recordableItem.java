@@ -45,6 +45,8 @@ public class recordableItem implements Serializable {
         purchase_count += amount;
     }
 
+    public String getListName(){ return getName() + " - $" + getPrice(); }
+
     public String toString(){
         return getName() + " at $" + getPrice() + " each,\nFor a total of: $" + getAmountSpent();
     }

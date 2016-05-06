@@ -87,7 +87,6 @@ public class enter extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, itemsArrayList);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(adapter);
-
         spin.setVisibility(View.VISIBLE);
         spin.setMinimumWidth(800);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
@@ -151,12 +150,13 @@ public class enter extends AppCompatActivity {
         itemList.clear();
         itemList.add(new recordableItem("Alcohol", 12, 0));
         itemList.add(new recordableItem("Cigarettes", 10, 0));
-        itemList.add(new recordableItem("Other - $5", 5, 0));
-        itemList.add(new recordableItem("Other - $1", 1, 0));
+        itemList.add(new recordableItem("Other", 10, 0));
+        itemList.add(new recordableItem("Other", 5, 0));
+        itemList.add(new recordableItem("Other", 1, 0));
 
         itemsArrayList.clear();
         for(int i = 0; i < itemList.size(); i++){
-            itemsArrayList.add(itemList.get(i).getName());
+            itemsArrayList.add(itemList.get(i).getListName());
         }
     }
 
@@ -169,7 +169,7 @@ public class enter extends AppCompatActivity {
 
     public int findItemLoc(String checkName){
         for(int i = 0; i < itemList.size(); i++){
-            if(itemList.get(i).getName().equals(checkName)){
+            if(itemList.get(i).getListName().equals(checkName)){
                 return i;
             }
         }
@@ -195,19 +195,25 @@ public class enter extends AppCompatActivity {
         return false;
     }
 
-    public void writeItemFile(){
+    public boolean writeItemFile(){
         FileOutputStream fos;
         String separator = "|";
-        try{
-            fos = openFileOutput(savedItems, Context.MODE_PRIVATE);
-            for(int i = 0; i < itemList.size(); i++){
-                fos.write(itemList.get(i).toSaveable().getBytes());
-                fos.write(separator.getBytes());
+
+        if(itemList.size() > 0){
+            try{
+                fos = openFileOutput(savedItems, Context.MODE_PRIVATE);
+                for(int i = 0; i < itemList.size(); i++){
+                    fos.write(itemList.get(i).toSaveable().getBytes());
+                    fos.write(separator.getBytes());
+                }
+                fos.close();
+            }catch(Exception e){
+                //some exception here
             }
-            fos.close();
-        }catch(Exception e){
-            //some exception here
+            return true;
         }
+        return false;
+
     }
 
     public boolean readTransactionFileToArray(){
@@ -228,19 +234,23 @@ public class enter extends AppCompatActivity {
         return false;
     }
 
-    public void writeTransactionFile(){
+    public boolean writeTransactionFile(){
         FileOutputStream fos;
         String separator = "|";
-        try{
-            fos = openFileOutput(savedTransactions, Context.MODE_PRIVATE);
-            for(int i = 0; i < itemTrans.size(); i++){
-                fos.write(itemTrans.get(i).toSaveable().getBytes());
-                fos.write(separator.getBytes());
+
+        if(itemTrans.size() > 0){
+            try{
+                fos = openFileOutput(savedTransactions, Context.MODE_PRIVATE);
+                for(int i = 0; i < itemTrans.size(); i++){
+                    fos.write(itemTrans.get(i).toSaveable().getBytes());
+                    fos.write(separator.getBytes());
+                }
+                fos.close();
+            }catch(Exception e){
+                //some exception here
             }
-            fos.close();
-        }catch(Exception e){
-            //some exception here
         }
+         return false;
     }
 
     public String readFile(String fileName){
