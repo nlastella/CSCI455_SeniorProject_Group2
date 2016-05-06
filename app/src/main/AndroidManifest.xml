@@ -53,8 +53,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Register" />
         <activity
-            android:name=".Comparison_Page"
-            android:label="@string/title_activity_comparison__page"
+            android:name=".ComparisonPage"
+            android:label="@string/title_activity_comparison_page"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

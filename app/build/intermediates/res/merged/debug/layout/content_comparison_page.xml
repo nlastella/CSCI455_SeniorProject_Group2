@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.csci455_group2.nyit.csci455_seniorproject_group2.ComparisonPage"
+    tools:showIn="@layout/activity_comparison_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compareValueLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Total amount of money spent: $" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compareValue"
+        android:layout_alignBottom="@+id/compareValueLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/compareValueLabel"
+        android:layout_toEndOf="@+id/compareValueLabel"
+        android:text="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compareListLabel"
+        android:layout_below="@+id/compareValueLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="With that much money, you could have purchased..." />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/compareList"
+        android:layout_below="@+id/compareListLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:choiceMode="none"
+        android:layout_above="@+id/btnCInput" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCInput"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp"
+        android:text="Enter Purchase" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Spendings"
+        android:id="@+id/btnView"
+        android:layout_alignTop="@+id/btnCInput"
+        android:layout_alignRight="@+id/compareList"
+        android:layout_alignEnd="@+id/compareList" />
+</RelativeLayout>

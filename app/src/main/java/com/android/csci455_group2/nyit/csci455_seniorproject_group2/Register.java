@@ -68,7 +68,6 @@ public class Register extends AppCompatActivity {
             handler.post(new Runnable() {
                 @Override
                 public void run() {
-                    testTV.setText(info);
                     dialog.dismiss();
                 }
             });

@@ -8,44 +8,20 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_camera.xml"
-    },
-    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_manage.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
     {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+        "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_camera.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
@@ -56,19 +32,7 @@
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
     },
     {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_send.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_share.xml"
-    },
-    {
         "merged": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
         "source": "/Users/nicholaslastella/AndroidStudioProjects/CSCI455_SeniorProject_Group2/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/Flashinglights92/CSCI455_SeniorProject_Group2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

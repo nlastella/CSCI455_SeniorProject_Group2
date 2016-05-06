@@ -6,7 +6,7 @@ import java.net.*;
  * Created by llh on 2016/3/2.
  */
 public class WebService_02 {
-    private static String IP = "216.37.110.198:8080";
+    private static String IP = "52.39.2.78:9999";
     // 通过Get方式获取HTTP服务器数据 get server data by using Get method
     public static String executeHttpGet(String name,String age, String username, String password){
         HttpURLConnection conn = null;

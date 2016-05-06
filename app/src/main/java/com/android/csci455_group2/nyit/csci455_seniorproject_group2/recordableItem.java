@@ -17,6 +17,12 @@ public class recordableItem implements Serializable {
         purchase_count = 0;
     }
 
+    public recordableItem(String name, double price, int pc){
+        item_name = name;
+        item_price = price;
+        purchase_count = pc;
+    }
+
     public String getName(){
         return item_name;
     }
@@ -41,6 +47,10 @@ public class recordableItem implements Serializable {
 
     public String toString(){
         return getName() + " at $" + getPrice() + " each,\nFor a total of: $" + getAmountSpent();
+    }
+
+    public String toSaveable(){
+        return getName() + "," + getPrice() + "," + getPurchaseCount();
     }
 }
 

@@ -17,7 +17,7 @@ import java.util.*;
  * Created by llh on 2016/3/2.
  */
 public class WebServicePost {
-    private static String IP = "216.37.110.198:8080";
+    private static String IP = "52.39.2.78:9999";
     // 通过 POST 方式获取HTTP服务器数据
     public static String executeHttpPost(String username, String password) {
         try {

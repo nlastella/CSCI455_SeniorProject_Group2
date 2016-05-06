@@ -27,6 +27,10 @@ public class comparableItem {
     }
 
     public String toSring(){
-        return "You could have purchased " + count + " " + itemName + " at " + itemPrice + " each.";
+        return count + " " + itemName + " at " + itemPrice + " each.";
+    }
+
+    public String toSaveable(){
+        return getName() +  "," + getPrice();
     }
 }

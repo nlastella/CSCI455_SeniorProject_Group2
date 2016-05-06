@@ -63,6 +63,8 @@ public class LoginActivity extends AppCompatActivity {
                 dialog.show();
                 // create sub_thread, doing Get and Post transfer
                 new Thread(new MyThread()).start();
+
+
             }
         });
     }
@@ -71,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         public void run() {
             info = WebService.executeHttpGet(et_userName.getText().toString(), et_passWord.getText().toString());
-            // info = WebServicePost.executeHttpPost(username.getText().toString(), password.getText().toString());
+            //info = WebServicePost.executeHttpPost(username.getText().toString(), password.getText().toString());
             handler.post(new Runnable() {
                 @Override
                 public void run() {
@@ -79,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                     dialog.dismiss();
                 }
             });
+            startActivity(new Intent(LoginActivity.this, enter.class));
         }
     }
     // search Internet
@@ -89,4 +92,5 @@ public class LoginActivity extends AppCompatActivity {
         }
         return false;
     }
+
 }
