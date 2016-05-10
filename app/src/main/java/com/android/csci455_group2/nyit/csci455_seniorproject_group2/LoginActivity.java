@@ -1,5 +1,6 @@
 package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button bt_login;      //login button
     private Button bt_register;  //jump to register
     private ProgressDialog dialog;//progress dialog
+    private AlertDialog.Builder error;
     private String info;
     private TextView testTV;
     private static Handler handler = new android.os.Handler() ;
@@ -68,6 +70,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
     // sub_thread get data, main thread change data
     public class MyThread implements Runnable {
         @Override
@@ -79,9 +84,17 @@ public class LoginActivity extends AppCompatActivity {
                 public void run() {
                     testTV.setText(info);
                     dialog.dismiss();
+                    if(!testTV.getText().toString().equals("")) {
+                        startActivity(new Intent(LoginActivity.this, enter.class));
+                    } else{
+                        error = new AlertDialog.Builder(LoginActivity.this);
+                        error.setTitle("Error!");
+                        error.setMessage("Incorrect username or password. Try again.");
+                        error.setCancelable(true);
+                        error.show();
+                    }
                 }
             });
-            startActivity(new Intent(LoginActivity.this, enter.class));
         }
     }
     // search Internet
