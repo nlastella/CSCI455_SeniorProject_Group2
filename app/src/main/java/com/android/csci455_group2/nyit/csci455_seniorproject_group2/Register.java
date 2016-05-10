@@ -2,6 +2,7 @@ package com.android.csci455_group2.nyit.csci455_seniorproject_group2;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -69,6 +70,7 @@ public class Register extends AppCompatActivity {
                 @Override
                 public void run() {
                     dialog.dismiss();
+                    startActivity(new Intent(Register.this, LoginActivity.class));
                 }
             });
         }
